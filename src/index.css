@@ -32,3 +32,17 @@ nav a {
    background-color: #ce9e6f;
    color: #3b71ac;
 }
+
+.weather-data h1{
+   font-size: 2.3em;
+   font-weight: 900;
+}
+.weather-data h2 {
+   font-size: 1.9em;
+}
+.weather-data img {
+   image-rendering: pixelated;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow { transform: scale(1.1); }

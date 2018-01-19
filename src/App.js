@@ -59,14 +59,13 @@ class App extends Component {
 
                <Route exact path="/" component={Home} />
                <Route exact path="/blog" component={() => (<Blog
-                     posts={posts}
-                  />
+                     posts={posts}/>
                )} />
                <Route exact path="/movie" component={Movie} />
                <Route exact path="/food" component={Food} />
                <Route exact path="/about" component={About} />
             </div>
-            
+
          </div>
 
       </Router>
